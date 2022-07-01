@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     max-width: 984px;
-    /* min-width: 320px; */
     gap: 80px;
 }
 
@@ -23,7 +22,7 @@
 
 @media screen and (max-width: 425px) {
     .places {
-        gap: 50px; 
+        gap: 50px;
         padding: 0 0 66px 0;
     }
 }

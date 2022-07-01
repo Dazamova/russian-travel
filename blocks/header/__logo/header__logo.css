@@ -1,7 +1,12 @@
-@media screen and (max-width: 424px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
-        /* object-fit: contain; */
-    }  
-}
+        width: 176px;
+        height: 52px;
+        object-position: center;
+    }
+
+    @media screen and (max-width: 424px) {
+        .header__logo {
+            width: 142px;
+            height: 42px;
+        }
+    }

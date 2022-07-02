@@ -1,8 +1,8 @@
 .cover__subtitle {
     margin: 0;
-    position: absolute;
+    box-sizing: border-box;
+    position:relative;
     max-width: 360px;
-    top: 429px;
     left: auto;
     right: auto;
     font-weight: 400;
@@ -10,43 +10,11 @@
     line-height: 122%;
     text-align: center;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        top: 379px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .cover__subtitle {
-        top: 320px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        top: 299px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__subtitle {
-        top: 230px;
-        font-size: 16px;
-        line-height: 118%;
-    }
+    z-index: 1;
 }
 
 @media screen and (max-width: 568px) {
     .cover__subtitle {
-        top: 180px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .cover__subtitle {
-        top: 119px;
         font-size: 14px;
         line-height: 114%;
         max-width: 288px;

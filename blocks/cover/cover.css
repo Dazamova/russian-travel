@@ -1,21 +1,22 @@
 .cover {
-    margin: 0 auto;
-    box-sizing: border-box;
+    margin: auto auto;
+    box-sizing: content-box;
     display: flex;
     width: calc(100% - 48px*2);
-    background-image: url('../../../images/cover/dmitrii-vaccinium-22833-unsplash.jpg');
+    background-image: url('../../images/cover/dmitrii-vaccinium-22833-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: 0;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .cover::after {
     content: '';
     width: 0;
     height: 0;
-    margin-left: -1px;
     padding-top: calc(740 / 1184 * 100%);
 }
 
